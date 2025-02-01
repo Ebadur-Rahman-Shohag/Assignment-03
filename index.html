@@ -465,8 +465,24 @@
           </div>
         </div>
       </section>
+
+      <!-- image gallery section -->
+       <section>
+        <!-- container -->
+         <div class="grid grid-cols-2 lg:grid-cols-5 gap-2 lg:gap-6 mt-14 lg:mt-32 px-7 lg:px-0">
+          <img src="./c1-assets/cat-big.png" alt="">
+          <div class="grid grid-col-2">
+            <img src="./c1-assets/cat-big.png" alt="">
+            <img src="./c1-assets/cat-big.png" alt="">
+            <img src="./c1-assets/cat-big.png" alt="">
+            <img src="./c1-assets/cat-big.png" alt="">
+          </div>
+        
+         </div>
+       </section>
+
       <!-- News Section -->
-      <section class="w-full mt-14 px-7 lg:px-0 mb-16">
+      <section class="w-full mt-14 px-7 lg:px-0 relative z-20">
         <!-- container -->
         <div
           class="bg-[#FFF9F4] w-full lg:min-h-[491px] max-w-[1320px] mx-auto flex flex-col lg:flex-row justify-center lg:justify-start items-center text-center lg:text-left lg:space-x-28"
@@ -508,52 +524,56 @@
       </section>
     </main>
     <!-- footer section -->
-    <footer class="bg-[#FFDC2680] w-full">
-      <!-- left section -->
-      <div>
-        <!-- logo container -->
-        <div class="flex items-center space-x-4">
-          <img src="./c1-assets/logo-header.png" alt="navbar logo" />
-          <h3
-            class="hidden lg:block font-sora font-normal text-[#111111] text-2xl"
-          >
-            Browse<span class="text-[#FFDC26]">4</span>Pets
-          </h3>
-        </div>
-        <p>
-          Discover a world of treats, toys, and essentials handpicked for your
-          furry friends
-        </p>
+    <footer class="bg-[#FFDC2680] w-full flex flex-col justify-end z-10 -mt-72 py-16">
+      <!-- container -->
+       <div class="mt-[356px] px-7 lg:px-0 lg:max-w-[1320px] lg:ml-auto lg:mr-auto  lg:flex  lg:items-center space-x-96">
+     <!-- left section -->
+     <div >
+      <!-- logo container -->
+      <div class="flex items-center space-x-4">
+        <img src="./c1-assets/logo-footer.png" alt="navbar logo" />
+        <h3
+          class=" lg:block font-sora font-normal text-[#111111] text-2xl lg:text-[26px]"
+        >
+          Browse<span class="text-[#FFDC26]">4</span>Pets
+        </h3>
       </div>
-      <!-- middle section -->
-      <ul class="lg:flex justify-center items-center space-x-8">
-        <li>
-          <a class="font-sora font-normal text-xl text-[#111111]" href="#"
-            >Find a pet</a
-          >
-        </li>
-        <li>
-          <a class="font-sora font-normal text-xl text-[#111111]" href="#"
-            >Breeds</a
-          >
-        </li>
-        <li>
-          <a class="font-sora font-normal text-xl text-[#111111]" href="#"
-            >Contact us</a
-          >
-        </li>
-      </ul>
-      <!-- right section -->
-       <div>
-        <h5>Follow Us</h5>
-        <!-- icons container -->
-        <div>
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-linkedin"></i>
-          <i class="fa-brands fa-youtube"></i>
-        </div>
+      <p class="max-w-[354px] lg:max-w-[426px] font-sora font-normal text-base lg:text-xl text-[#111111] mt-5">     
+        Discover a world of treats, toys, and essentials handpicked for your
+        furry friends
+      </p>
+    </div>
+    <!-- middle section -->
+    <ul class="mt-9 lg:mt-0 lg:flex lg:flex-col space-y-5 ">
+      <li>
+        <a class="font-sora font-normal text-base lg:text-xl text-[#111111]" href="#"
+          >Find a pet</a
+        >
+      </li>
+      <li>
+        <a class="font-sora font-normal text-base lg:text-xl text-[#111111]" href="#"
+          >Breeds</a
+        >
+      </li>
+      <li>
+        <a class="font-sora font-normal text-base lg:text-xl text-[#111111]" href="#"
+          >Contact us</a
+        >
+      </li>
+    </ul>
+    <!-- right section -->
+     <div class="mt-9 lg:mt-0">
+      <h5 class="font-sora font-normal text-base py-3">Follow Us</h5>
+      <!-- icons container -->
+      <div class="space-x-7 lg:flex lg:items-end">
+        <i class="fa-brands fa-facebook "></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-youtube"></i>
+      </div>
+     </div>
        </div>
+ 
     </footer>
   </body>
 </html>
