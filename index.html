@@ -12,9 +12,6 @@
       rel="stylesheet"
     />
 
-    <!-- css -->
-    <link rel="stylesheet" href="styles.css" />
-
     <!-- fontawesome -->
     <script
       src="https://kit.fontawesome.com/16c1f8b86a.js"
@@ -100,7 +97,7 @@
     <main>
       <!-- banner section -->
       <section
-        class="relative w-full max-w-[1320px] lg:min-h-[749px] mx-auto lg:mt-[76px] bg-[url('./c1-assets/cat-big.png')] bg-contain bg-no-repeat bg-[-0.8rem_90%] lg-bg-custom"
+        class="border border-red-500  relative w-full max-w-[1320px] lg:min-h-[749px] mx-auto lg:mt-[76px] bg-[url('./c1-assets/cat-big.png')] bg-contain bg-no-repeat bg-[-0.8rem_90%] lg-bg-custom"
       >
         <!-- banner details -->
         <div class="relative mt-8 lg:mt-6 px-7 lg:px-0 pb-40 z-10">
@@ -133,15 +130,64 @@
         </div> -->
       </section>
       <!-- Categories Section -->
-      <section>
-        <h1>Browse By Categories</h1>
-        <div>
+      <section class=" w-full max-w-[1320px] mx-auto mt-14 lg:mt-[140px] px-7 lg:px-0">
+        <h1 class="font-adlam font-normal text-2xl text-[#111111]">Browse By Categories</h1>
+        <!-- card container -->
+        <div class="grid grid-cols-2 lg:grid-cols-6 gap-2 lg:gap-6 mt-8 lg:mt-12 ">
           <!-- card -->
-          <div>
-            <div><img src="./c1-assets/dog-cartoon.png" alt="dog-image" /></div>
-            <h3>Dog</h3>
-            <p>3 items</p>
+          <div class="bg-[#F9DF8A] flex flex-col items-center justify-center py-8 space-y-6 rounded-xl">
+            <div class="bg-white rounded-full p-6"><img src="./c1-assets/dog-cartoon.png" alt="dog-image" /></div>
+            <div class="text-center space-y-2">
+              <h3 class="font-adlam font-normal text-base">Dog</h3>
+              <p class="font-sora font-noemal text-sm">3 items</p>
+            </div>
+      
           </div>
+       <!-- card -->
+       <div class="bg-[#F9DF8A] flex flex-col items-center justify-center py-8 space-y-6 rounded-xl">
+        <div class="bg-white rounded-full p-6"><img src="./c1-assets/fish-cartoon.png" alt="fish-image" /></div>
+        <div class="text-center space-y-2">
+          <h3 class="font-adlam font-normal text-base">Fish</h3>
+          <p class="font-sora font-noemal text-sm">3 items</p>
+        </div>
+  
+      </div>
+          <!-- card -->
+          <div class="bg-[#F9DF8A] flex flex-col items-center justify-center py-8 space-y-6 rounded-xl">
+            <div class="bg-white rounded-full p-6"><img src="./c1-assets/cat-cartoon.png" alt="cat-image" /></div>
+            <div class="text-center space-y-2">
+              <h3 class="font-adlam font-normal text-base">Cat</h3>
+              <p class="font-sora font-noemal text-sm">3 items</p>
+            </div>
+      
+          </div>
+              <!-- card -->
+              <div class="bg-[#F9DF8A] flex flex-col items-center justify-center py-8 space-y-6 rounded-xl">
+                <div class="bg-white rounded-full p-6"><img src="./c1-assets/bird-cartoon.png" alt="bird-image" /></div>
+                <div class="text-center space-y-2">
+                  <h3 class="font-adlam font-normal text-base">Birds</h3>
+                  <p class="font-sora font-noemal text-sm">3 items</p>
+                </div>
+          
+              </div>
+                  <!-- card -->
+          <div class="bg-[#F9DF8A] flex flex-col items-center justify-center py-8 space-y-6 rounded-xl">
+            <div class="bg-white rounded-full p-6"><img src="./c1-assets/mouse-cartoon.png" alt="pet-image" /></div>
+            <div class="text-center space-y-2">
+              <h3 class="font-adlam font-normal text-base">Small pet</h3>
+              <p class="font-sora font-noemal text-sm">3 items</p>
+            </div>
+      
+          </div>
+              <!-- card -->
+              <div class="bg-[#F9DF8A] flex flex-col items-center justify-center py-8 space-y-6 rounded-xl">
+                <div class="bg-white rounded-full p-6"><img src="./c1-assets/rabbit-cartoon.png" alt="rabit-image" /></div>
+                <div class="text-center space-y-2">
+                  <h3 class="font-adlam font-normal text-base">Rabit</h3>
+                  <p class="font-sora font-noemal text-sm">3 items</p>
+                </div>
+          
+              </div>
         </div>
       </section>
     </main>
