@@ -12,6 +12,9 @@
       rel="stylesheet"
     />
 
+    <!-- css -->
+    <link rel="stylesheet" href="styles.css" />
+
     <!-- fontawesome -->
     <script
       src="https://kit.fontawesome.com/16c1f8b86a.js"
@@ -96,14 +99,18 @@
     <!-- main section -->
     <main>
       <!-- banner section -->
-      <section class=" relative w-full max-w-[1320px] mx-auto lg:mt-20">
+      <section
+        class="relative w-full max-w-[1320px] lg:min-h-[749px] mx-auto lg:mt-[76px] bg-[url('./c1-assets/cat-big.png')] bg-contain bg-no-repeat bg-[-0.8rem_90%] lg-bg-custom"
+      >
         <!-- banner details -->
-        <div class="relative mt-8 lg:mt-6 px-7 lg:px-4 pb-40 z-10">
-          <h1 class="font-normal font-adlam text-3xl lg:text-6xl text-[#111111]">
-            Pamper Your Pet,<br />Because They Deserve<br />the Bes
+        <div class="relative mt-8 lg:mt-6 px-7 lg:px-0 pb-40 z-10">
+          <h1
+            class="font-normal font-adlam lg:leading-[4.56rem] text-3xl lg:text-6xl text-[#111111]"
+          >
+            Pamper Your Pet,<br />Because They Deserve<br />the Best
           </h1>
           <p
-            class="max-w-[350px] lg:max-w-[672px] font-sora font-normal text-base text-[#111111] mt-3 lg:mt-4 opacity-[0.7]"
+            class="max-w-[350px] lg:max-w-[672px] font-sora font-normal lg:leading-9 text-base text-[#111111] mt-3 lg:mt-4 opacity-[0.7]"
           >
             Discover a world of treats, toys, and essentials handpicked for your
             furry friends. Shop now and make tails wag with joy!
@@ -111,16 +118,30 @@
           <button
             class="mt-3 lg:mt-6 px-7 py-3 font-sora font-normal text-base bg-[#FFDC26] rounded-lg"
           >
-            Find a pet 
+            Find a pet
           </button>
         </div>
-        <!-- banner image -->
-        <div class="w-full absolute bottom-4 lg:-bottom-52 -left-4 lg:left-0 z-0">
+        <!-- banner image
+        <div
+          class="w-full absolute bottom-4 lg:-bottom-52 -left-3 lg:left-0 z-0"
+        >
           <img
             class="w-full"
             src="./c1-assets/cat-big.png"
             alt="big-cat-image"
           />
+        </div> -->
+      </section>
+      <!-- Categories Section -->
+      <section>
+        <h1>Browse By Categories</h1>
+        <div>
+          <!-- card -->
+          <div>
+            <div><img src="./c1-assets/dog-cartoon.png" alt="dog-image" /></div>
+            <h3>Dog</h3>
+            <p>3 items</p>
+          </div>
         </div>
       </section>
     </main>
